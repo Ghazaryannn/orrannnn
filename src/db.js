@@ -462,7 +462,7 @@ export const Salads = [
         id:1,
         name:'Ռոզբիֆ',
         image:'/roz.jpg',
-        price:'3500 Դ'
+        price:'2700 Դ'
     },
     {
         id:2,
