@@ -1,0 +1,547 @@
+.menu{
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+    padding: 15px;
+    padding-top: 20px;
+}
+.menu_header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px 50px 0 0;
+    padding-top: 20px;
+    background: linear-gradient(#fe000498, #000);
+}
+.menu_header p{
+    background-color: #eeeeee51;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px;
+    height: 50px;
+    border-radius: 50px;
+    letter-spacing: .5px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.appetizer{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/naxautest1.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.appetizer::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.appetizer h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.grilled{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/grilled.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.grilled::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.grilled h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.hotdish{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/hotdish.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.hotdish::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.hotdish h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.tapaka{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/tapaka.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.soup{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/soup.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.soup::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.soup h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.tapaka::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.tapaka h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.xashlama{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/xashlama.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.xashlama::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.xashlama h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.salate{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/salate.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.salate::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.salate h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.cans{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/pahaconner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.cans::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.cans h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.souse{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/sous.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.souse::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.souse h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.pasta{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/pasta.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.pasta::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.pasta h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+
+.drink{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/drinks.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.drink::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.drink h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.wine{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/wine.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.wine::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.wine h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.vodka{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/vodka.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.vodka::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.vodka h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.konyak{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/konyak.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.konyak::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.konyak h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+.piva{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/piva.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.piva::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
+.piva h2{
+    color:#eee;
+    font-size: 25px;
+    text-align: center;
+    z-index: 999;
+}
+
+.menu .active{
+    background-color: #eeeeeea2;
+}
+.scrambled_eggs{
+    height: 150px;
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 20px;
+    background-image: url('../../../public/dzvadzex.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    color: #eee;
+    cursor: pointer;
+}
+.scrambled_eggs::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000ae;
+    border-radius: 20px;
+    z-index: -1;
+}
